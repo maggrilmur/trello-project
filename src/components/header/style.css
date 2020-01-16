@@ -1,0 +1,142 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 42px;
+    background:#026aa7;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+.home-div {
+    margin-left: 20px;
+    margin-right: 5px;
+    background: #4e97c2;
+    padding: 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.home-div:hover {
+    background: #4e97c2cc;
+}
+.logo{
+    margin-right: 8px;
+}
+.quadros-div {
+    display: flex;
+    margin-right: 5px;
+    background: #4e97c2;
+    padding: 6px;
+    border-radius: 4px;
+}
+.quadros-div p {
+    font-weight: bold;
+    color: #fff;
+}
+.quadros-div:hover {
+    background: #4e97c2cc;
+}
+
+.input-div .input {
+    border: none;
+    background: none;
+    padding: 6px;
+    
+}
+
+.input-div {
+    background: #4e97c2;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.input-div img {
+    margin-right: 6px;
+}
+
+.input-div:hover {
+    background: #67a6ca;
+    cursor: hand;
+}
+.logo-div {
+    width:300px;
+    height: 100%;
+}
+
+.logo-div .logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-div .logo img {
+    margin-right: 5px;
+}
+.logo-div .logo p {
+    font-weight: bold;
+    color: #fff;
+}
+
+.trello-logo-center {
+    opacity: 50%;
+}
+.trello-p-center {
+    opacity: 50%;
+}
+.trello-logo-center:hover {
+    opacity: 100%;
+}
+.trello-p-center:hover {
+    opacity: 100%;
+}
+
+
+.right-nav {
+    display: flex;
+    width: 500px;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+}
+.right-nav .item-right-nav {
+    margin-right: 5px;
+}
+
+
+.plus-div {
+    display: flex;
+    background: #4e97c2;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+.info-div {
+    display: flex;
+    background: #4e97c2;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+.bell-div {
+    display: flex;
+    background: #4e97c2;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.info-div:hover {
+    background: #4e97c2cc;
+}
+.bell-div:hover {
+    background: #4e97c2cc;
+}
+.plus-div:hover {
+    background: #4e97c2cc;
+}
