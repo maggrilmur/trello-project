@@ -16,3 +16,8 @@ a {
 ul, li {
     list-style: none;
 }
+
+.container-app {
+    display: flex;
+    justify-content: center;
+}
