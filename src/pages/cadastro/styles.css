@@ -1,0 +1,82 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cadastro-box {
+    display: grid;
+    width: 30vw;
+    height: 60vh;
+    grid-gap: 6px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    padding: 25px 40px;
+    text-align: center;
+    box-shadow: 1px -1px 22px 1px rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+
+.title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #5e6c84;
+}
+
+.email-input {
+    margin-bottom: 10px;
+    border: solid 2px #4c9aff;
+    padding: 15px;
+}
+
+.password-input {
+    margin-bottom: 10px;
+    border: solid 2px #4c9aff;
+    padding: 15px;
+}
+
+.cadastro-button {
+    margin-bottom: 10px;
+    border:none;
+    border-radius: 5px;
+    background: #0065FF; 
+    padding: 15px;
+}
+
+.cadastro-button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.footer-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px #ccc;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.footer-div a {
+    margin-right: 6px;
+    margin-left: 6px;
+    color: #0099e3;
+}
+
+.dot {
+    background: #4d4d4d;
+    border-radius: 5px;
+    height: 5px;
+    width: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
