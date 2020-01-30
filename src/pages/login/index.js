@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './style.css';
+import logoTrello from '../../assets/img/Trello136-43.png';
 
 
 export default class Login extends Component {
     render() {
         return (
             <div className="container">
+                <img src={logoTrello} className="logoTrello" alt="logo-trello" />
                 <div className="login-box">
                     <h1 className="title">Fazer Login</h1>
                     <input className="email-input" type="text" placeholder="Insira o e-mail" />
